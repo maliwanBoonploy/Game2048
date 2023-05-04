@@ -1,7 +1,7 @@
 var board;
 var score = 0;
-var rows = 5;
-var columns = 5;
+var rows = 4;
+var columns = 4;
 
 const restartButton = document.getElementById("restart");
 
@@ -14,11 +14,10 @@ window.onload = function() {
 
 function setGame() {
     board = [
-        [0, 0, 0, 0,0],
-        [0, 0, 0, 0,0],
-        [0, 0, 0, 0,0],
-        [0, 0, 0, 0,0],
-        [0, 0, 0, 0,0]
+        [0, 0, 0, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0]
     ]
 
     for (let r = 0; r < rows; r++) {

@@ -8,8 +8,8 @@ hr {
 }
 
 #board {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
@@ -54,70 +54,66 @@ hr {
 
 
 .x2 {
-    background-color: pink;
-    color: white;
+    background-color: #eee4da;
+    color: #727371;
 }
 
 .x4 {
-    background-color: lightgreen;
-    color: white;
+    background-color: #ece0ca;
+    color: #727371;
 }
 
 .x8 {
-    background-color: skyblue;
+    background-color: #f4b17a;
     color: white;
 }
 
 .x16{
-    background-color: blue;
+    background-color: #f59575;
     color: white;
 }
 
 .x32{
-    background-color: red;
+    background-color: #f57c5f;
     color: white;
 }
 
 .x64{
-    background-color: purple;
+    background-color: #f65d3b;
     color: white;
 }
 
 .x128{
-    background-color: grey;
+    background-color: #edce71;
     color: white;
 }
 
 .x256{
-    background-color: yellow;
+    background-color: #edcc63;
     color: white;
 }
 
 .x512{
-    background-color: rgb(232, 43, 74);
+    background-color: #edc651;
     color: white;
 }
 
 .x1024{
-    background-color: red;
-    color: gold;
-    border: gold;
+    background-color: #eec744;
+    color: white;
 }
 
 .x2048{
-    background-color: green;
-    color: gold;
-    border: gold;
+    background-color: #ecc230;
+    color: white;
 }
 
 .x4096 {
-    background-color: greenyellow;
-    color: gold;
-    border: gold;
+    background-color: #fe3d3d;
+    color: white;
 }
 
 .x8192 {
-    background-color: black;
-    color: gold;
-    border: gold;
+    background-color: #ff2020;
+    color: white;
 }
