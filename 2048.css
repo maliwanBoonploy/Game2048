@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* colored tiles */
+
+#restart{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: grey;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer; 
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 25px;
+    text-align: center;
+} 
+#restart:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+.x2 {
+    background-color: pink;
+    color: white;
+}
+
+.x4 {
+    background-color: lightgreen;
+    color: white;
+}
+
+.x8 {
+    background-color: skyblue;
+    color: white;
+}
+
+.x16{
+    background-color: blue;
+    color: white;
+}
+
+.x32{
+    background-color: red;
+    color: white;
+}
+
+.x64{
+    background-color: purple;
+    color: white;
+}
+
+.x128{
+    background-color: grey;
+    color: white;
+}
+
+.x256{
+    background-color: yellow;
+    color: white;
+}
+
+.x512{
+    background-color: rgb(232, 43, 74);
+    color: white;
+}
+
+.x1024{
+    background-color: red;
+    color: gold;
+    border: gold;
+}
+
+.x2048{
+    background-color: green;
+    color: gold;
+    border: gold;
+}
+
+.x4096 {
+    background-color: greenyellow;
+    color: gold;
+    border: gold;
+}
+
+.x8192 {
+    background-color: black;
+    color: gold;
+    border: gold;
+}
